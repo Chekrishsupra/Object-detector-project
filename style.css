@@ -5,12 +5,20 @@ body {
 
 #option {
     background-color: white;
-    width: 30%;
+    width: 40%;
+    text-align: center;
     border-radius: 20px;
     border-color: white;
-    margin-left: 460px;
-    height: 30px;
+    margin-left: 430px;
+    height: 40px;
     font-weight: bolder;
-    font-size: 20px;
+    font-size: 30px;
     font-family: 'Grechen Fuemen', cursive;
+}
+
+canvas
+{
+box-shadow: 10px 10px 10px grey;
+border-radius: 10px;
+margin-top: 15px;
 }
