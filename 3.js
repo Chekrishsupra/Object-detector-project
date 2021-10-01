@@ -1,4 +1,5 @@
 objectDetector = "";
+status = "";
 function preload() {
     img = loadImage("laptop.jpg");
 }

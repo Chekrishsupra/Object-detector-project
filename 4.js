@@ -1,6 +1,7 @@
 objectDetector = "";
+status = "";
 function preload() {
-    img = loadImage("kithen.jpg");
+    img = loadImage("kitchen.jpg");
 }
 
 function setup() {
@@ -13,4 +14,8 @@ function setup() {
 function modelLoaded() {
     status = true;
     console.log("Model loaded");
+}
+
+function draw() {
+    image(img,0,0,640,420);
 }
